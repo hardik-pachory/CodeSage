@@ -1,0 +1,29 @@
+{
+  "name": "codesage",
+  "version": "1.0.0",
+  "description": "Frontend of Remote Code Execution Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hardik Pachory",
+  "license": "ISC",
+  "dependencies": {
+    "@uiw/codemirror-theme-okaidia": "^4.19.16",
+    "@uiw/react-codemirror": "^4.19.16",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.21.0",
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "react-toastify": "^9.1.2"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}
