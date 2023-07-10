@@ -29,6 +29,7 @@ export const LoginCompo = () => {
     };
     setTried(true);
     userIn.password == pass ? setCorrectPass(true) : setCorrectPass(false);
+    console.log(correctPass);
     auth.login(userIn);
     navigate('/');
   };

@@ -12,6 +12,8 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].`,
+    input: `2 3 3 6 `,
+    output: '0 1',
   },
   {
     id: 2,
@@ -71,8 +73,12 @@ Explanation: The above elevation map (black section) is represented by array [0,
   },
   {
     id: 8,
-    title: 'Print Number from 1-10',
-    desc: 'Itne to tum bhi smjhdar ho',
+    title: 'Print Number from 1-N',
+    desc: `Write a program that reads an integer from the standard input and print numbers from 1 to N to standard output.
+        Input: N: 6
+        Output: 1 2 3 4 5 6 
+        Explanation: The above output displays numbers from 1 to 10`,
+    input: '10',
     output: '1 2 3 4 5 6 7 8 9 10 ',
   },
 ];

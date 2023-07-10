@@ -84,6 +84,7 @@ int main(){
       data: {
         language_id: id,
         source_code: code,
+        stdin: question.state.input,
         expected_output: question.state.output,
       },
     };
@@ -143,7 +144,7 @@ int main(){
             )}
             <div className='m-3'>
               <h5>Output:</h5>
-              <p>{output}</p>
+              {/* <p>{output}</p> */}
               <h3 className='text-success'>{status}</h3>
             </div>
           </div>
